@@ -1,14 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
 
-      
+        <head>
+                <link rel='stylesheet' href='index.css' type='text' />
+        </head>
 
-<style>
-code {
-  font-family: Consolas,"courier new";
-  color: crimson;
-  background-color: #f1f1f1;
-  padding: 2px;
-  font-size: 105%;
-}
-</style>
+        <div class="container">
 
+                <label for="fname"><b>First Name</b></label>
+                <input type="fname" placeholder="Enter first name">
+
+                <label for="lname"><b>Last Name</b></label>
+                <input type="lname" placeholder="Enter last name">
+    
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter last name">
+    
+                <label for="hometown"><b>Hometown</b></label>
+                <input type="hometown" placeholder="Enter last name">
+    
+                <label for="major"><b>Major</b></label>
+                <input type="major" placeholder="Enter last name">
+
+
+                <button type="submit">Subscribe</button>
+
+        </div>
+
+        <body>
+        </body>
+</html>
 
